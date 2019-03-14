@@ -12,6 +12,7 @@ import static org.fluentlenium.assertj.FluentLeniumAssertions.assertThat;
 class JavaExampleIT extends UiTest {
 
     @Test
+    //Testing
     @Description("this is a custom description that will be visible in the detailed test report")
     void anExampleTestWrittenInJava() {
         goTo("https://github.com");
